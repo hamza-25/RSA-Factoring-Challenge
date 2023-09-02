@@ -6,9 +6,9 @@
 */
 void print_fact_num(int num)
 {
-	int i = 2;
+	u_int32_t i = 2;
 
-	for (; i < 10; i++)
+	for (; i < num; i++)
 	{
 		if (num % i == 0)
 		{
