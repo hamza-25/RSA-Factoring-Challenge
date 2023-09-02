@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "factors.h"
 /**
  * print_fact_num - print nums that % is 0
  * @num: number to be cheched
