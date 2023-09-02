@@ -4,7 +4,7 @@
  * print_fact_num - print nums that % is 0
  * @num: number to be cheched
 */
-void print_fact_num(int num)
+void print_fact_num(u_int32_t num)
 {
 	u_int32_t i = 2;
 
