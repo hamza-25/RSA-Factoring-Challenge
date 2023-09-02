@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	FILE *fd;
 	char line[50];
-	long int num;
+	u_int32_t num;
 
 	if (argc != 2)
 	{
