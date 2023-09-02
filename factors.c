@@ -15,13 +15,13 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		printf("Usage: <file> file_number\n");
+		fprintf(stderr, "Usage: <file> file_number\n");
 		exit(1);
 	}
 	fd = fopen(argv[1], "r");
 	if (!fd)
 	{
-		printf("cant open file\n");
+		fprintf(stderr, "Error: can't open file %s\n", argv[1]);
 		exit(1);
 	}
 	while (fgets(line, sizeof(line), fd) != NULL)
